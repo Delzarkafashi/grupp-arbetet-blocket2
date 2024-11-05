@@ -1,0 +1,44 @@
+.Header {
+    display: grid;
+    grid-template-columns: repeat(12, 0.8fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px; 
+    grid-row-gap: 0px; 
+    background-color: lightgray; 
+    padding: 0.5rem; 
+}
+
+.LogaNamn, .Kategorier, .LagInAnnons, .Search, .LogSignIn {
+    padding: 0.1rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center; 
+    font-size: 1.5vw;
+}
+
+
+.LogaNamn {
+    grid-area: 1 / 2 / 2 / 4; 
+    background-color: lightblue; 
+}
+
+.Kategorier {
+    grid-area: 1 / 4 / 2 / 5; 
+    background-color: lightgreen; 
+}
+
+.LagInAnnons {
+    grid-area: 1 / 7 / 2 / 8; 
+    background-color: lightyellow; 
+}
+
+.Search {
+    grid-area: 1 / 8 / 2 / 10; 
+    background-color: lightcoral; 
+}
+
+.LogSignIn {
+    grid-area: 1 / 11 / 2 / 12; 
+    background-color: lightpink; 
+}
